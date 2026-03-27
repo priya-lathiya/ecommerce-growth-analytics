@@ -1,6 +1,7 @@
 # ecommerce-growth-analytics
 End-to-end e-commerce data analytics project featuring RFM segmentation, churn detection &amp; KPI tracking built on real Brazilian e-commerce data using PostgreSQL, Python &amp; Power BI.
 
+---
 
 ## 📌 Project Overview
 
@@ -44,3 +45,36 @@ store in Brazilian marketplaces. The dataset contains 100,000+ orders placed bet
 | Total Revenue | R$ 16,008,872.12 |
 | Date Range | September 2016 — October 2018 |
 | Total Tables | 9 CSV files |
+
+
+---
+
+## 📁 Project Structure
+
+```
+ecommerce-growth-analytics/
+│
+├── data/
+│   └── raw/                        # Original CSV files from Kaggle
+│
+├── sql/
+│   ├── 01_create_tables.sql        # Table creation scripts
+│   ├── 02_data_cleaning.sql        # All data cleaning queries
+│   ├── 03_eda_queries.sql          # Exploratory analysis queries
+│   └── 04_kpi_queries.sql          # KPI calculation queries
+│
+├── python/
+│   ├── rfm_segmentation.py         # RFM analysis script
+│   └── churn_detection.py          # Churn detection script
+│
+├── dashboard/
+│   └── ecommerce_dashboard         # Power BI / Tableau file
+│
+├── reports/
+│   └── Step3_Data_Cleaning_Report.txt
+│
+└── README.md
+```
+
+---
+
